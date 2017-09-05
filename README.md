@@ -2,6 +2,15 @@
 
 Configuration and documentation for developing and running RCPTT UI tests in Eclipse
 
+### Supported Eclipse Target Platforms
+
+* Oxygen (4.6)
+* Neon (4.5)
+* Mars (4.4)
+* Indigo (3.7)
+
+Feel free to create pull requests for other platform versions. This mainly requires a new Repository list in the Targlet definition.
+
 ## RCPTT remote runner setup
 
 The following is an overview of the steps detailed in the following sections:
