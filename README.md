@@ -1,4 +1,5 @@
-# rcptt-remote-configuration
+# Develop RCPTT UI tests with remote execution
+
 Configuration and documentation for developing and running RCPTT UI tests in Eclipse
 
 ## RCPTT remote runner setup
