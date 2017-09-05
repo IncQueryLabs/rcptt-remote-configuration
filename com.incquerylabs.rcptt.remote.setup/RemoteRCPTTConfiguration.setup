@@ -80,6 +80,10 @@
           name="org.eclipse.rcptt.watson.aspects.jobs"/>
       <requirement
           name="org.eclipse.rcptt.watson.aspects.swt"/>
+      <requirement
+          name="org.eclipse.rcptt.external.dependencies.feature.feature.group"
+          optional="true"
+          filter=""/>
       <repositoryList
           name="Oxygen">
         <repository
@@ -130,35 +134,8 @@
       </repositoryList>
     </targlet>
   </setupTask>
-  <stream name="oxygen"
-      label="Oxygen">
-    <setupTask
-        xsi:type="setup:VariableTask"
-        name="eclipse.target.platform"
-        value="Oxygen"/>
-    <setupTask
-        xsi:type="setup.targlets:TargletTask">
-      <targlet
-          name="RCPTT Oxygen">
-        <requirement
-            name="org.eclipse.rcptt.external.dependencies.feature.feature.group"/>
-      </targlet>
-    </setupTask>
-  </stream>
-  <stream name="neon"
-      label="Neon">
-    <setupTask
-        xsi:type="setup:VariableTask"
-        name="eclipse.target.platform"
-        value="Neon"/>
-  </stream>
-  <stream name="mars"
-      label="Mars">
-    <setupTask
-        xsi:type="setup:VariableTask"
-        name="eclipse.target.platform"
-        value="Mars"/>
-  </stream>
+  <stream name="master"
+      label="Master"/>
   <logicalProjectContainer
       xsi:type="setup:ProjectCatalog"
       href="index:/org.eclipse.setup#//@projectCatalogs[name='com.github']"/>
