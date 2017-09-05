@@ -124,6 +124,8 @@
       <repositoryList
           name="Indigo">
         <repository
+            url="http://download.eclipse.org/tools/orbit/downloads/drops/R20140525021250/repository"/>
+        <repository
             url="http://download.eclipse.org/eclipse/updates/3.7/R-3.7.2-201202080800"/>
         <repository
             url="http://download.eclipse.org/rcptt/release/2.2.0/repository"/>
