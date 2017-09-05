@@ -21,7 +21,8 @@
       <requirement
           name="org.eclipse.sdk.feature.group"/>
       <requirement
-          name="org.aspectj.feature.group"/>
+          name="org.aspectj.feature.group"
+          optional="true"/>
       <requirement
           name="org.eclipse.equinox.weaving.caching"/>
       <requirement
@@ -80,6 +81,9 @@
           name="org.eclipse.rcptt.watson.aspects.jobs"/>
       <requirement
           name="org.eclipse.rcptt.watson.aspects.swt"/>
+      <requirement
+          name="org.eclipse.ajdt.feature.group"
+          optional="true"/>
       <requirement
           name="org.eclipse.rcptt.external.dependencies.feature.feature.group"
           optional="true"
