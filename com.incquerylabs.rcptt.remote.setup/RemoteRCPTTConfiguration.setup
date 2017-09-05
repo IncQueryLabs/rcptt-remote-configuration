@@ -87,6 +87,7 @@
           optional="true"/>
       <requirement
           name="org.eclipse.rcptt.external.dependencies.feature.feature.group"
+          optional="true"
           filter=""/>
       <repositoryList
           name="Oxygen">
