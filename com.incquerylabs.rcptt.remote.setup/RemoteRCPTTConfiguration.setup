@@ -19,11 +19,27 @@
         name="RCPTT Target"
         activeRepositoryList="${eclipse.target.platform}">
       <requirement
-          name="org.eclipse.rcptt.runtime.feature.group"/>
+          name="org.eclipse.sdk.feature.group"/>
+      <requirement
+          name="org.aspectj.feature.group"/>
+      <requirement
+          name="org.eclipse.equinox.weaving.caching"/>
+      <requirement
+          name="org.eclipse.equinox.weaving.aspectj"/>
+      <requirement
+          name="org.eclipse.equinox.weaving.hook"/>
       <requirement
           name="org.eclipse.rcptt.ctx.preferences.aspects"/>
       <requirement
           name="org.eclipse.rcptt.ctx.workbench.aspect"/>
+      <requirement
+          name="org.eclipse.rcptt.ecl.platform.feature.group"/>
+      <requirement
+          name="org.eclipse.rcptt.ecl.platform.ui.feature.group"/>
+      <requirement
+          name="org.eclipse.rcptt.runtime.feature.group"/>
+      <requirement
+          name="org.eclipse.rcptt.tesla.feature.group"/>
       <requirement
           name="org.eclipse.rcptt.tesla.jdt.aspects"/>
       <requirement
@@ -57,35 +73,21 @@
       <requirement
           name="org.eclipse.rcptt.tesla.workbench.aspects.e4x"/>
       <requirement
-          name="org.eclipse.rcptt.ecl.platform.feature.group"/>
-      <requirement
-          name="org.eclipse.rcptt.ecl.platform.ui.feature.group"/>
-      <requirement
           name="org.eclipse.rcptt.tesla.workbench.texteditor.aspects"/>
+      <requirement
+          name="org.eclipse.rcptt.updates.feature.group"/>
       <requirement
           name="org.eclipse.rcptt.watson.aspects.jobs"/>
       <requirement
           name="org.eclipse.rcptt.watson.aspects.swt"/>
-      <requirement
-          name="org.eclipse.rcptt.tesla.feature.group"/>
-      <requirement
-          name="org.eclipse.equinox.weaving.caching"/>
-      <requirement
-          name="org.eclipse.equinox.weaving.aspectj"/>
-      <requirement
-          name="org.eclipse.equinox.weaving.hook"/>
-      <requirement
-          name="org.aspectj.feature.group"/>
-      <requirement
-          name="org.eclipse.rcptt.updates.feature.group"/>
       <repositoryList
           name="Oxygen">
         <repository
             url="http://download.eclipse.org/releases/oxygen"/>
         <repository
-            url="http://download.eclipse.org/rcptt/nightly/2.2.0/latest/runtime4x"/>
+            url="http://download.eclipse.org/rcptt/release/2.2.0/runtime4x"/>
         <repository
-            url="http://download.eclipse.org/rcptt/nightly/2.2.0/latest/repository"/>
+            url="http://download.eclipse.org/rcptt/release/2.2.0/repository"/>
         <repository
             url="http://download.eclipse.org/tools/ajdt/46/dev/update"/>
       </repositoryList>
@@ -109,18 +111,18 @@
         <repository
             url="http://download.eclipse.org/rcptt/release/2.0.0/repository"/>
         <repository
-            url="http://download.eclipse.org/tools/ajdt/mars/update/"/>
+            url="http://download.eclipse.org/tools/ajdt/mars/update"/>
       </repositoryList>
       <repositoryList
           name="Indigo">
         <repository
-            url="http://download.eclipse.org/eclipse/updates/3.7/R-3.7.2-201202080800/"/>
+            url="http://download.eclipse.org/eclipse/updates/3.7/R-3.7.2-201202080800"/>
         <repository
             url="http://download.eclipse.org/rcptt/release/2.1.0/repository"/>
         <repository
             url="http://download.eclipse.org/rcptt/release/2.1.0/runtime3x"/>
         <repository
-            url="http://download.eclipse.org/tools/ajdt/37/update/"/>
+            url="http://download.eclipse.org/tools/ajdt/37/update"/>
         <repository
             url="http://download.eclipse.org/releases/indigo"/>
         <repository
