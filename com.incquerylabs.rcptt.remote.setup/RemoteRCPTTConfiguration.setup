@@ -111,6 +111,21 @@
         <repository
             url="http://download.eclipse.org/tools/ajdt/mars/update/"/>
       </repositoryList>
+      <repositoryList
+          name="Indigo">
+        <repository
+            url="http://download.eclipse.org/eclipse/updates/3.7/R-3.7.2-201202080800/"/>
+        <repository
+            url="http://download.eclipse.org/rcptt/release/2.1.0/repository"/>
+        <repository
+            url="http://download.eclipse.org/rcptt/release/2.1.0/runtime3x"/>
+        <repository
+            url="http://download.eclipse.org/tools/ajdt/37/update/"/>
+        <repository
+            url="http://download.eclipse.org/releases/indigo"/>
+        <repository
+            url="http://download.eclipse.org/releases/mars"/>
+      </repositoryList>
     </targlet>
   </setupTask>
   <stream name="oxygen"
@@ -122,7 +137,7 @@
     <setupTask
         xsi:type="setup.targlets:TargletTask">
       <targlet
-          name="RCPTT Target">
+          name="RCPTT Oxygen">
         <requirement
             name="org.eclipse.rcptt.external.dependencies.feature.feature.group"/>
       </targlet>
