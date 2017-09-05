@@ -72,7 +72,8 @@
       <requirement
           name="org.eclipse.rcptt.tesla.ui.ide.aspects"/>
       <requirement
-          name="org.eclipse.rcptt.tesla.workbench.aspects.e4x"/>
+          name="org.eclipse.rcptt.tesla.workbench.aspects.e4x"
+          optional="true"/>
       <requirement
           name="org.eclipse.rcptt.tesla.workbench.texteditor.aspects"/>
       <requirement
