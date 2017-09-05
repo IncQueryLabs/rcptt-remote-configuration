@@ -6,9 +6,9 @@ Configuration and documentation for developing and running RCPTT UI tests in Ecl
 The following is an overview of the steps detailed in the following sections:
 
 1. Install RCPTT IDE ( https://eclipse.org/rcptt/download/ ) 
-1. Import the Oomph project to your development Eclipse
-1. Create a Run Configuration in the development Eclipse with the given changes to run the tested application
-1. Create Run Configuration to connect to a Remote AUT in the RCPTT IDE
+1. Import the Oomph project to your development Eclipse (see [Get RCPTT into your Target Platform](#get-rcptt-into-your-target-platform))
+1. Create a Run Configuration in the development Eclipse with the given changes to run the tested application (see [Run Configuration](#run-configuration))
+1. Create Run Configuration to connect to a Remote AUT in the RCPTT IDE (see [RCPTT IDE](#rcptt-ide))
 1. Start the Runtime Eclipse from the development Eclipse
 1. Execute the tests from the RCPTT IDE
 
