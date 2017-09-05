@@ -28,7 +28,8 @@ The following is an overview of the steps detailed in the following sections:
 
 1. In the Eclipse IDE where you want to add RCPTT runtime to your Target, click `File -> Import... -> Oomph/Projects into Workspace`
 1. Click on the `Add user projects` button (green plus `+` sign on the upper right) and select `Github projects` and paste `https://raw.githubusercontent.com/IncQueryLabs/rcptt-remote-configuration/master/com.incquerylabs.rcptt.remote.setup/RemoteRCPTTConfiguration.setup`
-1. Check `Github Projects/<User>/Remote RCPTT Configuration` and select the stream fitting your Eclipse Target Platform.
+1. Check `Github Projects/<User>/Remote RCPTT Configuration`
+1. Variables page: select the required Eclipse Target Platform version.
 1. Run the setup tasks (you may have to restart Eclipse to install Oomph task specific features from P2 and rerun the Setup tasks)
 
 #### Run Configuration
