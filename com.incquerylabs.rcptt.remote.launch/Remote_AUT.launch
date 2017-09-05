@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="org.eclipse.rcptt.launching.remote">
+<intAttribute key="org.eclipse.rcptt.launching.ECL_PORT_ATTR" value="5380"/>
+<stringAttribute key="org.eclipse.rcptt.launching.HOST" value="localhost"/>
+<intAttribute key="org.eclipse.rcptt.launching.TESLA_PORT_ATTR" value="7930"/>
+</launchConfiguration>
