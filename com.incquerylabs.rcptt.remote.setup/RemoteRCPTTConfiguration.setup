@@ -87,7 +87,6 @@
           optional="true"/>
       <requirement
           name="org.eclipse.rcptt.external.dependencies.feature.feature.group"
-          optional="true"
           filter=""/>
       <repositoryList
           name="Oxygen">
@@ -105,20 +104,20 @@
         <repository
             url="http://download.eclipse.org/releases/neon"/>
         <repository
-            url="http://download.eclipse.org/rcptt/release/2.1.0/runtime4x"/>
+            url="http://download.eclipse.org/rcptt/release/2.2.0/runtime4x"/>
         <repository
-            url="http://download.eclipse.org/rcptt/release/2.1.0/repository"/>
+            url="http://download.eclipse.org/rcptt/release/2.2.0/repository"/>
         <repository
-            url="http://download.eclipse.org/tools/ajdt/46/dev/update/ajdt-e46-2.2.4.201703272045"/>
+            url="http://download.eclipse.org/tools/ajdt/46/dev/update"/>
       </repositoryList>
       <repositoryList
           name="Mars">
         <repository
             url="http://download.eclipse.org/releases/mars"/>
         <repository
-            url="http://download.eclipse.org/rcptt/release/2.0.0/runtime4x"/>
+            url="http://download.eclipse.org/rcptt/release/2.2.0/runtime4x"/>
         <repository
-            url="http://download.eclipse.org/rcptt/release/2.0.0/repository"/>
+            url="http://download.eclipse.org/rcptt/release/2.2.0/repository"/>
         <repository
             url="http://download.eclipse.org/tools/ajdt/mars/update"/>
       </repositoryList>
@@ -127,9 +126,9 @@
         <repository
             url="http://download.eclipse.org/eclipse/updates/3.7/R-3.7.2-201202080800"/>
         <repository
-            url="http://download.eclipse.org/rcptt/release/2.1.0/repository"/>
+            url="http://download.eclipse.org/rcptt/release/2.2.0/repository"/>
         <repository
-            url="http://download.eclipse.org/rcptt/release/2.1.0/runtime3x"/>
+            url="http://download.eclipse.org/rcptt/release/2.2.0/runtime3x"/>
         <repository
             url="http://download.eclipse.org/tools/ajdt/37/update"/>
         <repository
