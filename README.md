@@ -41,9 +41,10 @@ The following is an overview of the steps detailed in the following sections:
 
 1. Create or reuse an Eclipse Application
 1. Add to **VM Arguments**: `-DteslaPort=7930 -DeclPort=5380 -Dosgi.framework.extensions=org.eclipse.equinox.weaving.hook`
+   * If you use bundle pools and get `java.lang.NoClassDefFoundError: org/eclipse/osgi/internal/hookregistry/HookConfigurator` errors, you may have to add also the following: `-Dosgi.frameworkClassPath=.,file:<pool-location>/plugins/org.eclipse.equinox.weaving.hook_<version-in-target-platform>.jar` This is needed the default value for `osgi.frameworkClassPath` may use a different version (not in your target platform).
 1. Plug-ins:
-  * Launch with: **plug-ins selected below only**, make sure to have all `aspectj`, `equinox.weaving` and `rcptt` plugins enabled
-  * Set **auto-start** to **true** on: **org.eclipse.equinox.weaving.aspectj**
+   * Launch with: **plug-ins selected below only**, make sure to have all `aspectj`, `equinox.weaving` and `rcptt` plugins enabled
+   * Set **auto-start** to **true** on: **org.eclipse.equinox.weaving.aspectj**
 
 ### RCPTT IDE
 
