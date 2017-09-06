@@ -69,9 +69,6 @@
           name="org.eclipse.rcptt.watson.aspects.jobs"/>
       <requirement
           name="org.eclipse.rcptt.watson.aspects.swt"/>
-      <requirement
-          name="org.eclipse.rcptt.external.dependencies.feature.feature.group"
-          filter=""/>
       <repositoryList
           name="Oxygen">
         <repository
@@ -190,6 +187,9 @@
       <targlet
           name="RCPTT for E4">
         <requirement
+            name="org.eclipse.rcptt.external.dependencies.feature.feature.group"
+            filter=""/>
+        <requirement
             name="org.eclipse.rcptt.tesla.workbench.aspects.e4x"/>
         <requirement
             name="org.eclipse.sdk.feature.group"/>
@@ -207,7 +207,7 @@
     <setupTask
         xsi:type="setup.targlets:TargletTask">
       <targlet
-          name="RCPTT for RCP">
+          name="RCPTT for 3.x">
         <requirement
             name="org.eclipse.platform.feature.group"
             versionRange="[3.7.2,3.8.0)"/>
