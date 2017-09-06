@@ -33,15 +33,15 @@ The following is an overview of the steps detailed in the following sections:
 
 1. In the Eclipse IDE where you want to add RCPTT runtime to your Target, click `File -> Import... -> Oomph/Projects into Workspace`
 1. Click on the `Add user projects` button (green plus `+` sign on the upper right) and select `Github projects` and paste `https://raw.githubusercontent.com/IncQueryLabs/rcptt-remote-configuration/master/com.incquerylabs.rcptt.remote.setup/RemoteRCPTTConfiguration.setup`
-1. Check `Github Projects/<User>/Remote RCPTT Configuration`
-1. Variables page: select the required Eclipse Target Platform version.
+1. Check `Github Projects/<User>/Remote RCPTT Configuration` and select the stream depending on your target platform (3.x or 4.x)
+1. Variables page: select the required Eclipse Target Platform version
 1. Run the setup tasks (you may have to restart Eclipse to install Oomph task specific features from P2 and rerun the Setup tasks)
 
 #### Run Configuration
 
 1. Create or reuse an Eclipse Application
 1. Add to **VM Arguments**: `-DteslaPort=7930 -DeclPort=5380 -Dosgi.framework.extensions=org.eclipse.equinox.weaving.hook`
-   * If you use bundle pools and get `java.lang.NoClassDefFoundError: org/eclipse/osgi/internal/hookregistry/HookConfigurator` errors, you may have to add also the following: `-Dosgi.frameworkClassPath=.,file:<pool-location>/plugins/org.eclipse.equinox.weaving.hook_<version-in-target-platform>.jar` This is needed the default value for `osgi.frameworkClassPath` may use a different version (not in your target platform).
+   * If you use bundle pools and get `java.lang.NoClassDefFoundError: org/eclipse/osgi/internal/hookregistry/HookConfigurator` errors, you may have to add also the following: `-Dosgi.frameworkClassPath=.,file:<pool-location>/plugins/org.eclipse.equinox.weaving.hook_<version-in-target-platform>.jar` This is needed the default value for `osgi.frameworkClassPath` may use a different version (not in your target platform)
 1. Plug-ins:
    * Launch with: **plug-ins selected below only**, make sure to have all `aspectj`, `equinox.weaving` and `rcptt` plugins enabled
    * Set **auto-start** to **true** on: **org.eclipse.equinox.weaving.aspectj**
