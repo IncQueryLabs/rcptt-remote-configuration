@@ -157,14 +157,14 @@
   <setupTask
       xsi:type="setup:EclipseIniTask"
       option="-Doomph.redirection.rcptt.remote.configuration.git"
-      value="=https://raw.githubusercontent.com/IncQueryLabs/rcptt-remote-configuration.git/master/com.incquerylabs.rcptt.remote.setup/RcpttRemoteConfigurationGIT.setup->${git.clone.rcptt.remote.configuration.git.location|uri}/com.incquerylabs.rcptt.remote.setup/RcpttRemoteConfigurationGIT.setup"
+      value="=https://raw.githubusercontent.com/IncQueryLabs/rcptt-remote-configuration/master/com.incquerylabs.rcptt.remote.setup/RemoteRCPTTConfiguration.setup->${git.clone.rcptt.remote.location|uri}/com.incquerylabs.rcptt.remote.setup/RemoteRCPTTConfiguration.setup"
       vm="true">
     <description>Set an Oomph redirection system property to redirect the logical location of this setup to its physical location in the Git clone.</description>
   </setupTask>
   <setupTask
       xsi:type="git:GitCloneTask"
-      id="git.clone.rcptt.remote.configuration.git"
-      remoteURI="IncQueryLabs/rcptt-remote-configuration.git">
+      id="git.clone.rcptt.remote"
+      remoteURI="IncQueryLabs/rcptt-remote-configuration">
     <annotation
         source="http://www.eclipse.org/oomph/setup/InducedChoices">
       <detail
