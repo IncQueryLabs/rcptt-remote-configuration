@@ -106,17 +106,15 @@
         name="AspectJ"
         activeRepositoryList="${eclipse.target.platform}">
       <requirement
-          name="org.aspectj.feature.group"
-          optional="true"/>
+          name="org.aspectj.runtime"/>
+      <requirement
+          name="org.aspectj.weaver"/>
       <requirement
           name="org.eclipse.equinox.weaving.caching"/>
       <requirement
           name="org.eclipse.equinox.weaving.aspectj"/>
       <requirement
           name="org.eclipse.equinox.weaving.hook"/>
-      <requirement
-          name="org.eclipse.ajdt.feature.group"
-          optional="true"/>
       <repositoryList
           name="Oxygen">
         <repository
