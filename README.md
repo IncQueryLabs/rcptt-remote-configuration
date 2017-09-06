@@ -4,9 +4,14 @@ Configuration and documentation for developing and running RCPTT UI tests in Ecl
 
 ### Supported Eclipse Target Platforms
 
+#### Eclipse 4.x (built on E4)
+
 * Oxygen (4.6)
 * Neon (4.5)
 * Mars (4.4)
+
+#### Eclipse 3.x (legacy RCP)
+
 * Indigo (3.7)
 
 Feel free to create pull requests for other platform versions. This mainly requires a new Repository list in the Targlet definition.
