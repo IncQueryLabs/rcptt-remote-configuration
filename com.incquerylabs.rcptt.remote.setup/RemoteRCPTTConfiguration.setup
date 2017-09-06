@@ -164,7 +164,8 @@
   <setupTask
       xsi:type="git:GitCloneTask"
       id="git.clone.rcptt.remote"
-      remoteURI="IncQueryLabs/rcptt-remote-configuration">
+      remoteURI="IncQueryLabs/rcptt-remote-configuration"
+      checkoutBranch="master">
     <annotation
         source="http://www.eclipse.org/oomph/setup/InducedChoices">
       <detail
