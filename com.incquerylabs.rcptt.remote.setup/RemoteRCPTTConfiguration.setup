@@ -70,6 +70,13 @@
       <requirement
           name="org.eclipse.rcptt.watson.aspects.swt"/>
       <repositoryList
+          name="Photon">
+        <repository
+            url="http://download.eclipse.org/releases/photon"/>
+        <repository
+            url="http://download.eclipse.org/tools/ajdt/46/dev/update"/>
+      </repositoryList>
+      <repositoryList
           name="Oxygen">
         <repository
             url="http://download.eclipse.org/releases/oxygen"/>
@@ -183,7 +190,8 @@
     <setupTask
         xsi:type="setup.targlets:TargletTask">
       <targlet
-          name="RCPTT for E4">
+          name="RCPTT for E4"
+          activeRepositoryList="${eclipse.target.platform}">
         <requirement
             name="org.eclipse.rcptt.external.dependencies.feature.feature.group"
             filter=""/>
@@ -191,11 +199,26 @@
             name="org.eclipse.rcptt.tesla.workbench.aspects.e4x"/>
         <requirement
             name="org.eclipse.sdk.feature.group"/>
-        <repositoryList>
+        <repositoryList
+            name="Photon">
+          <repository
+              url="http://download.eclipse.org/rcptt/nightly/2.3.0/latest/runtime4x"/>
+          <repository
+              url="http://download.eclipse.org/rcptt/nightly/2.3.0/latest/repository"/>
+        </repositoryList>
+        <repositoryList
+            name="Oxygen">
           <repository
               url="http://download.eclipse.org/rcptt/release/2.2.0/runtime4x"/>
           <repository
               url="http://download.eclipse.org/rcptt/release/2.2.0/repository"/>
+        </repositoryList>
+        <repositoryList
+            name="Neon">
+          <repository
+              url="http://download.eclipse.org/rcptt/release/2.2.0/runtime4x"/>
+          <repository
+              url="http://download.eclipse.org/rcptt/release/2.1.0/repository"/>
         </repositoryList>
       </targlet>
     </setupTask>
