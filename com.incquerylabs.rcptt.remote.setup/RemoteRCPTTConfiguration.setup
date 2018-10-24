@@ -202,9 +202,9 @@
         <repositoryList
             name="Photon">
           <repository
-              url="http://download.eclipse.org/rcptt/nightly/2.3.0/latest/runtime4x"/>
+              url="http://download.eclipse.org/rcptt/release/2.3.0/runtime4x"/>
           <repository
-              url="http://download.eclipse.org/rcptt/nightly/2.3.0/latest/repository"/>
+              url="http://download.eclipse.org/rcptt/release/2.3.0/repository"/>
         </repositoryList>
         <repositoryList
             name="Oxygen">
@@ -219,6 +219,20 @@
               url="http://download.eclipse.org/rcptt/release/2.2.0/runtime4x"/>
           <repository
               url="http://download.eclipse.org/rcptt/release/2.1.0/repository"/>
+        </repositoryList>
+        <repositoryList
+            name="2018-09">
+          <repository
+              url="http://download.eclipse.org/rcptt/release/2.3.0/runtime4x"/>
+          <repository
+              url="http://download.eclipse.org/rcptt/release/2.3.0/repository"/>
+        </repositoryList>
+        <repositoryList
+            name="2018-12">
+          <repository
+              url="http://download.eclipse.org/rcptt/nightly/2.4.0/latest/runtime4x"/>
+          <repository
+              url="http://download.eclipse.org/rcptt/nightly/2.4.0/latest/repository"/>
         </repositoryList>
       </targlet>
     </setupTask>
