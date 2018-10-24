@@ -74,7 +74,7 @@
         <repository
             url="http://download.eclipse.org/releases/photon"/>
         <repository
-            url="http://download.eclipse.org/tools/ajdt/46/dev/update"/>
+            url="http://download.eclipse.org/tools/ajdt/48/dev/update"/>
       </repositoryList>
       <repositoryList
           name="Oxygen">
@@ -107,6 +107,20 @@
             url="http://download.eclipse.org/tools/ajdt/37/update"/>
         <repository
             url="http://download.eclipse.org/releases/indigo"/>
+      </repositoryList>
+      <repositoryList
+          name="2018-09">
+        <repository
+            url="http://download.eclipse.org/releases/2018-09"/>
+        <repository
+            url="http://download.eclipse.org/tools/ajdt/48/dev/update"/>
+      </repositoryList>
+      <repositoryList
+          name="2018-12">
+        <repository
+            url="http://download.eclipse.org/releases/2018-12"/>
+        <repository
+            url="http://download.eclipse.org/tools/ajdt/48/dev/update"/>
       </repositoryList>
     </targlet>
     <targlet
