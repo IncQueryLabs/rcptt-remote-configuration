@@ -122,6 +122,20 @@
         <repository
             url="http://download.eclipse.org/tools/ajdt/48/dev/update"/>
       </repositoryList>
+      <repositoryList
+          name="2019-09">
+        <repository
+            url="http://download.eclipse.org/releases/2019-09"/>
+        <repository
+            url="http://download.eclipse.org/tools/ajdt/48/dev/update"/>
+      </repositoryList>
+      <repositoryList
+          name="2019-12">
+        <repository
+            url="http://download.eclipse.org/releases/2019-12"/>
+        <repository
+            url="http://download.eclipse.org/tools/ajdt/48/dev/update"/>
+      </repositoryList>
     </targlet>
     <targlet
         name="AspectJ"
@@ -167,6 +181,28 @@
             url="http://download.eclipse.org/tools/ajdt/37/update"/>
         <repository
             url="http://download.eclipse.org/releases/indigo"/>
+      </repositoryList>
+      <repositoryList
+          name="2019-09">
+        <repository
+            url="http://download.eclipse.org/tools/orbit/downloads/drops/R20140525021250/repository"/>
+        <repository
+            url="http://download.eclipse.org/eclipse/updates/4.13"/>
+        <repository
+            url="http://download.eclipse.org/tools/ajdt/43/update"/>
+        <repository
+            url="http://download.eclipse.org/releases/indigo"/>
+      </repositoryList>
+      <repositoryList
+          name="2019-12">
+        <repository
+            url="http://download.eclipse.org/tools/orbit/downloads/drops/R20140525021250/repository"/>
+        <repository
+            url="http://download.eclipse.org/eclipse/updates/4.14"/>
+        <repository
+            url="http://download.eclipse.org/tools/ajdt/43/update"/>
+        <repository
+            url="http://download.eclipse.org/releases/2019-12"/>
       </repositoryList>
     </targlet>
   </setupTask>
@@ -247,6 +283,20 @@
               url="http://download.eclipse.org/rcptt/nightly/2.4.0/latest/runtime4x"/>
           <repository
               url="http://download.eclipse.org/rcptt/nightly/2.4.0/latest/repository"/>
+        </repositoryList>
+        <repositoryList
+            name="2019-09">
+          <repository
+              url="http://download.eclipse.org/rcptt/release/2.4.3/repository"/>
+          <repository
+              url="http://download.eclipse.org/rcptt/release/2.4.3/runtime4x"/>
+        </repositoryList>
+        <repositoryList
+            name="2019-12">
+          <repository
+              url="http://download.eclipse.org/rcptt/nightly/2.5.0/latest/runtime4x"/>
+          <repository
+              url="http://download.eclipse.org/rcptt/nightly/2.5.0/latest/repository"/>
         </repositoryList>
       </targlet>
     </setupTask>
