@@ -217,6 +217,17 @@
               url="http://download.eclipse.org/releases/indigo"/>
         </repositoryList>
         <repositoryList
+            name="Photon">
+          <repository
+              url="http://download.eclipse.org/tools/orbit/downloads/drops/R20140525021250/repository"/>
+          <repository
+              url="http://download.eclipse.org/eclipse/updates/4.8"/>
+          <repository
+              url="http://download.eclipse.org/tools/ajdt/43/update"/>
+          <repository
+              url="http://download.eclipse.org/releases/photon/"/>
+        </repositoryList>
+        <repositoryList
             name="2019-09">
           <repository
               url="http://download.eclipse.org/tools/orbit/downloads/drops/R20140525021250/repository"/>
