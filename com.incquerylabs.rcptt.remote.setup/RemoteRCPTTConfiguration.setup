@@ -6,7 +6,7 @@
     xmlns:git="http://www.eclipse.org/oomph/setup/git/1.0"
     xmlns:setup="http://www.eclipse.org/oomph/setup/1.0"
     xmlns:setup.targlets="http://www.eclipse.org/oomph/setup/targlets/1.0"
-    xsi:schemaLocation="http://www.eclipse.org/oomph/setup/git/1.0 http://git.eclipse.org/c/oomph/org.eclipse.oomph.git/plain/setups/models/Git.ecore http://www.eclipse.org/oomph/setup/targlets/1.0 http://git.eclipse.org/c/oomph/org.eclipse.oomph.git/plain/setups/models/SetupTarglets.ecore"
+    xsi:schemaLocation="http://www.eclipse.org/oomph/setup/git/1.0 https://raw.githubusercontent.com/eclipse-oomph/oomph/master/setups/models/Git.ecore http://www.eclipse.org/oomph/setup/targlets/1.0 https://raw.githubusercontent.com/eclipse-oomph/oomph/master/setups/models/SetupTarglets.ecore"
     name="incquerylabs.rcptt.remote"
     label="Remote RCPTT Configuration">
   <setupTask
@@ -233,6 +233,62 @@
           <repository
               url="https://download.eclipse.org/rcptt/release/2.5.3/repository"/>
         </repositoryList>
+        <repositoryList
+            name="2022-12">
+          <repository
+              url="https://download.eclipse.org/rcptt/release/2.5.4/runtime4x/"/>
+          <repository
+              url="https://download.eclipse.org/rcptt/release/2.5.4/repository"/>
+        </repositoryList>
+        <repositoryList
+            name="2023-03">
+          <repository
+              url="https://download.eclipse.org/rcptt/release/2.5.4/runtime4x/"/>
+          <repository
+              url="https://download.eclipse.org/rcptt/release/2.5.4/repository"/>
+        </repositoryList>
+        <repositoryList
+            name="2023-06">
+          <repository
+              url="https://download.eclipse.org/rcptt/release/2.5.4/runtime4x/"/>
+          <repository
+              url="https://download.eclipse.org/rcptt/release/2.5.4/repository"/>
+        </repositoryList>
+        <repositoryList
+            name="2023-09">
+          <repository
+              url="https://download.eclipse.org/rcptt/release/2.5.4/runtime4x/"/>
+          <repository
+              url="https://download.eclipse.org/rcptt/release/2.5.4/repository"/>
+        </repositoryList>
+        <repositoryList
+            name="2023-12">
+          <repository
+              url="https://download.eclipse.org/rcptt/release/2.5.4/runtime4x/"/>
+          <repository
+              url="https://download.eclipse.org/rcptt/release/2.5.4/repository"/>
+        </repositoryList>
+        <repositoryList
+            name="2024-03">
+          <repository
+              url="https://download.eclipse.org/rcptt/release/2.5.4/runtime4x/"/>
+          <repository
+              url="https://download.eclipse.org/rcptt/release/2.5.4/repository"/>
+        </repositoryList>
+        <repositoryList
+            name="2024-06">
+          <repository
+              url="https://download.eclipse.org/rcptt/release/2.5.4/runtime4x/"/>
+          <repository
+              url="https://download.eclipse.org/rcptt/release/2.5.4/repository"/>
+        </repositoryList>
+        <repositoryList
+            name="2024-09">
+          <repository
+              url="https://download.eclipse.org/rcptt/release/2.5.4/runtime4x/"/>
+          <repository
+              url="https://download.eclipse.org/rcptt/release/2.5.4/repository"/>
+        </repositoryList>
       </targlet>
       <targlet
           name="AspectJ"
@@ -363,7 +419,7 @@
           <repository
               url="http://download.eclipse.org/eclipse/updates/4.19"/>
           <repository
-              url="https://download.eclipse.org/tools/ajdt/410/dev/update/"/>
+              url="https://download.eclipse.org/tools/ajdt/419/dev/update/"/>
           <repository
               url="http://download.eclipse.org/releases/2021-03"/>
         </repositoryList>
@@ -374,7 +430,7 @@
           <repository
               url="http://download.eclipse.org/eclipse/updates/4.20"/>
           <repository
-              url="https://download.eclipse.org/tools/ajdt/410/dev/update/"/>
+              url="https://download.eclipse.org/tools/ajdt/419/dev/update/"/>
           <repository
               url="http://download.eclipse.org/releases/2021-06"/>
         </repositoryList>
@@ -385,7 +441,7 @@
           <repository
               url="http://download.eclipse.org/eclipse/updates/4.21"/>
           <repository
-              url="https://download.eclipse.org/tools/ajdt/410/dev/update/"/>
+              url="https://download.eclipse.org/tools/ajdt/421/dev/update/"/>
           <repository
               url="http://download.eclipse.org/releases/2021-09"/>
         </repositoryList>
@@ -396,7 +452,7 @@
           <repository
               url="http://download.eclipse.org/eclipse/updates/4.22"/>
           <repository
-              url="https://download.eclipse.org/tools/ajdt/410/dev/update/"/>
+              url="https://download.eclipse.org/tools/ajdt/421/dev/update/"/>
           <repository
               url="http://download.eclipse.org/releases/2021-12"/>
         </repositoryList>
@@ -407,7 +463,7 @@
           <repository
               url="http://download.eclipse.org/eclipse/updates/4.23"/>
           <repository
-              url="https://download.eclipse.org/tools/ajdt/410/dev/update/"/>
+              url="https://download.eclipse.org/tools/ajdt/423/dev/update/"/>
           <repository
               url="http://download.eclipse.org/releases/2022-03"/>
         </repositoryList>
@@ -418,7 +474,7 @@
           <repository
               url="http://download.eclipse.org/eclipse/updates/4.24"/>
           <repository
-              url="https://download.eclipse.org/tools/ajdt/410/dev/update/"/>
+              url="https://download.eclipse.org/tools/ajdt/423/dev/update/"/>
           <repository
               url="http://download.eclipse.org/releases/2022-06"/>
         </repositoryList>
@@ -429,9 +485,97 @@
           <repository
               url="http://download.eclipse.org/eclipse/updates/4.25"/>
           <repository
-              url="https://download.eclipse.org/tools/ajdt/410/dev/update/"/>
+              url="https://download.eclipse.org/tools/ajdt/423/dev/update/"/>
           <repository
               url="http://download.eclipse.org/releases/2022-09"/>
+        </repositoryList>
+        <repositoryList
+            name="2022-12">
+          <repository
+              url="http://download.eclipse.org/tools/orbit/downloads/drops/R20140525021250/repository"/>
+          <repository
+              url="http://download.eclipse.org/eclipse/updates/4.26"/>
+          <repository
+              url="https://download.eclipse.org/tools/ajdt/426/dev/update/"/>
+          <repository
+              url="http://download.eclipse.org/releases/2022-12"/>
+        </repositoryList>
+        <repositoryList
+            name="2023-03">
+          <repository
+              url="http://download.eclipse.org/tools/orbit/downloads/drops/R20140525021250/repository"/>
+          <repository
+              url="http://download.eclipse.org/eclipse/updates/4.27"/>
+          <repository
+              url="https://download.eclipse.org/tools/ajdt/426/dev/update/"/>
+          <repository
+              url="http://download.eclipse.org/releases/2023-03"/>
+        </repositoryList>
+        <repositoryList
+            name="2023-06">
+          <repository
+              url="http://download.eclipse.org/tools/orbit/downloads/drops/R20140525021250/repository"/>
+          <repository
+              url="http://download.eclipse.org/eclipse/updates/4.28"/>
+          <repository
+              url="https://download.eclipse.org/tools/ajdt/426/dev/update/"/>
+          <repository
+              url="http://download.eclipse.org/releases/2023-06"/>
+        </repositoryList>
+        <repositoryList
+            name="2023-09">
+          <repository
+              url="http://download.eclipse.org/tools/orbit/downloads/drops/R20140525021250/repository"/>
+          <repository
+              url="http://download.eclipse.org/eclipse/updates/4.29"/>
+          <repository
+              url="https://download.eclipse.org/tools/ajdt/426/dev/update/"/>
+          <repository
+              url="http://download.eclipse.org/releases/2023-09"/>
+        </repositoryList>
+        <repositoryList
+            name="2023-12">
+          <repository
+              url="http://download.eclipse.org/tools/orbit/downloads/drops/R20140525021250/repository"/>
+          <repository
+              url="http://download.eclipse.org/eclipse/updates/4.30"/>
+          <repository
+              url="https://download.eclipse.org/tools/ajdt/426/dev/update/"/>
+          <repository
+              url="http://download.eclipse.org/releases/2023-12"/>
+        </repositoryList>
+        <repositoryList
+            name="2024-03">
+          <repository
+              url="http://download.eclipse.org/tools/orbit/downloads/drops/R20140525021250/repository"/>
+          <repository
+              url="http://download.eclipse.org/eclipse/updates/4.31"/>
+          <repository
+              url="https://download.eclipse.org/tools/ajdt/431/dev/update/"/>
+          <repository
+              url="http://download.eclipse.org/releases/2024-03"/>
+        </repositoryList>
+        <repositoryList
+            name="2024-06">
+          <repository
+              url="http://download.eclipse.org/tools/orbit/downloads/drops/R20140525021250/repository"/>
+          <repository
+              url="http://download.eclipse.org/eclipse/updates/4.32"/>
+          <repository
+              url="https://download.eclipse.org/tools/ajdt/431/dev/update/"/>
+          <repository
+              url="http://download.eclipse.org/releases/2024-06"/>
+        </repositoryList>
+        <repositoryList
+            name="2024-09">
+          <repository
+              url="http://download.eclipse.org/tools/orbit/downloads/drops/R20140525021250/repository"/>
+          <repository
+              url="http://download.eclipse.org/eclipse/updates/4.33"/>
+          <repository
+              url="https://download.eclipse.org/tools/ajdt/431/dev/update/"/>
+          <repository
+              url="http://download.eclipse.org/releases/2024-09"/>
         </repositoryList>
       </targlet>
     </setupTask>
