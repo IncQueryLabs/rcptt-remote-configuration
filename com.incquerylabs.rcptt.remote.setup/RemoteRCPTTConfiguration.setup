@@ -12,7 +12,7 @@
   <setupTask
       xsi:type="setup:VariableTask"
       name="eclipse.target.platform"
-      defaultValue="2020-03"
+      defaultValue="2022-06"
       storageURI="scope://Workspace"/>
   <setupTask
       xsi:type="setup:EclipseIniTask"
@@ -284,6 +284,13 @@
         </repositoryList>
         <repositoryList
             name="2024-09">
+          <repository
+              url="https://download.eclipse.org/rcptt/release/2.5.4/runtime4x/"/>
+          <repository
+              url="https://download.eclipse.org/rcptt/release/2.5.4/repository"/>
+        </repositoryList>
+        <repositoryList
+            name="2024-12">
           <repository
               url="https://download.eclipse.org/rcptt/release/2.5.4/runtime4x/"/>
           <repository
@@ -576,6 +583,17 @@
               url="https://download.eclipse.org/tools/ajdt/431/dev/update/"/>
           <repository
               url="http://download.eclipse.org/releases/2024-09"/>
+        </repositoryList>
+        <repositoryList
+            name="2024-12">
+          <repository
+              url="http://download.eclipse.org/tools/orbit/downloads/drops/R20140525021250/repository"/>
+          <repository
+              url="http://download.eclipse.org/eclipse/updates/4.34"/>
+          <repository
+              url="https://download.eclipse.org/tools/ajdt/431/dev/update/"/>
+          <repository
+              url="http://download.eclipse.org/releases/2024-12"/>
         </repositoryList>
       </targlet>
     </setupTask>
